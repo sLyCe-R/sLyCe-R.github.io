@@ -1,0 +1,106 @@
+* {
+  font-family: "Source Code Pro", monospace;
+  background-color: #404040;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  font-size: 39px;
+}
+
+p {
+  text-align: center;
+  font-size: 21px;
+  margin: 5px auto;
+  width: 75%;
+}
+
+introduction {
+  display: flex;
+  flex-direction: column;
+  margin: 10 auto;
+  width: 100%;
+  align-items: center;
+}
+
+works {
+  display: inline-flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+workbox {
+  margin: 0 auto;
+}
+
+workbox h2 {
+  text-align: center;
+}
+
+skills {
+  display: inline-flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+skillsbox {
+  margin: 0 auto;
+  align-items: center;
+  line-height: 1.5em;
+}
+
+skillsbox h2 {
+  text-align: center;
+}
+
+.profilePhoto {
+  width: 15%;
+  height: 15%;
+  border-radius: 15%;
+  border: 5px ridge black;
+}
+
+footer {
+  margin-left: 20px;
+}
+
+footer ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  gap: 20px;
+  justify-content: space-evenly;
+}
+
+footer ul li {
+  position: relative;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  font-size: 1.2em;
+}
+
+footer ul li::before {
+  position: absolute;
+  content: "";
+  color: #000;
+  top: 5px;
+  left: -20px;
+  transition: all 0.3s ease;
+  background-image: url("data:image/svg+xml,%3Csvg width='1em' height='1em' viewBox='0 0 16 16' class='bi bi-chevron-right' fill='black' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3E%3C/svg%3E");
+  height: 16px;
+  width: 16px;
+}
+
+footer ul li:hover:before {
+  position: absolute;
+  content: "";
+  color: #000;
+  top: 5px;
+  left: -15px;
+  transition: all 0.3s ease;
+  background-image: url("data:image/svg+xml,%3Csvg width='1em' height='1em' viewBox='0 0 16 16' class='bi bi-chevron-right' fill='black' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3E%3C/svg%3E");
+  height: 16px;
+  width: 16px;
+}
