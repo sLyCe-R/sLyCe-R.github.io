@@ -1,7 +1,11 @@
 * {
   font-family: "Source Code Pro", monospace;
   background-color: #d3d3d3;
+<<<<<<< HEAD
   color: black;
+=======
+  color: white;
+>>>>>>> 685f8f8e77891f96ea0e568e7db0d506a12aeb3b
 }
 
 h1 {
